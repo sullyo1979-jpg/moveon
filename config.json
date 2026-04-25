@@ -1,0 +1,20 @@
+{
+  "camera_index": 1,
+  "show_skeleton": true,
+  "voice_enabled": true,
+  "music_enabled": true,
+  "music_volume": 0.45,
+  "down_angle_threshold": 95,
+  "up_angle_threshold": 155,
+  "calibration_seconds": 2.5,
+  "pose_backend": "mediapipe",
+  "yolo_model": "yolo11n-pose.pt",
+  "yolo_conf": 0.25,
+  "yolo_imgsz": 640,
+  "mediapipe_model": "pose_landmarker_lite.task",
+  "mediapipe_model_url": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/latest/pose_landmarker_lite.task",
+  "mediapipe_detection_conf": 0.5,
+  "mediapipe_presence_conf": 0.5,
+  "mediapipe_tracking_conf": 0.5,
+  "mediapipe_visibility_conf": 0.5
+}
